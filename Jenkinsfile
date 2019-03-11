@@ -6,12 +6,12 @@ steps {
 echo 'Building..'
 }
 }
-stage('Test') {
+stage('SIT') {
 steps {
 echo 'Testing..'
 }
 }
-stage('Deploy') {
+stage('Deploy to UAT') {
 steps {
 echo 'Deploying....'
 }
